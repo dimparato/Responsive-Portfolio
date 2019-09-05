@@ -1,0 +1,93 @@
+html {
+  margin: auto;
+  background: darkgreen;
+  background-image: url(../images/3px-tile.png);
+}
+
+h3 {
+  color: red;
+  font-family: 'Press Start 2P', cursive;
+}
+
+hr {
+  border-bottom: 3px solid red;
+}
+
+img {
+  margin: 5px;
+}
+
+img.thumb {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 293px;
+}
+
+img.thumb:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+div {
+  max-width: 945px;
+  background-color: lightgrey;
+  border: 3px solid rebeccapurple;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+p {
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: cornflowerblue;
+  overflow: auto;
+}
+  
+li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+}
+
+li.link {
+  border-left: 1px solid #bbb;
+}
+
+li.link:hover {
+  background: darkblue;
+}
+
+li.link:last-child {
+  border-left: none;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: cornflowerblue;
+  overflow: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  li {
+    float: left;
+  }
+  li.link {
+    float: right;
+  }
+  img {
+    float: left;
+  }
+}
